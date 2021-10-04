@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* selector universal para que todos los elementos html "amanezcan" sin margin
+ ni padding */
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	
+	background-color:rgb(33, 33, 66);
+	width:90vw;
+	margin:auto;
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	height:130px;
+	background-color:rgb(107, 98, 206);
+	
+    display: flex;
+	justify-content: space-around;
+    
+}
+.logo{ 
+	width: 150px;
+	height: 120px;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+#marca{
+	margin-top: 20px;
+	font-size: 80px;
+	color: rgb(182, 248, 51);
+	font-family: 'Are You Serious', cursive;
+  }
+
+nav{
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-weight:bold;
+	background-color:yellow;
+	color:rgb(205, 243, 162);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+	text-decoration: none;
+
+	}
+	
+
+main{
+	padding:25px;
+	background-color:rgb(251, 253, 253);
+	}
+
+section{
+	border: 2px solid yellow;
+	padding: 25px;/*espacio entre el texto del section y su perimetro interno*/
+	margin-bottom:25px;/*espacio con el elemento vecino de abajo*/
+}
+.titulo{
+	color: indigo;
+	font-size: 24px;
+	font-weight: bold;
+}
+.article{
+	background-color:rgb(252, 252, 170);
+	color:indigo;
+	margin-bottom:25px;/*espacio con el elemento vecino de abajo*/
+	padding:25px;
+	font-size: 15px;
+	text-indent: 20px;
+	font-weight: bold;
+}
+span{
+	color: rgb(107, 98, 206);
+	text-transform: uppercase;
+	
+}
+.banner{
+	width: 80vw;
+	border: solid 2px rgb(182, 248, 51);
+	margin-bottom: 25px;
+}
+
+#container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+	
+	
+}
+.ofertapadre{
+	
+	display: flex;
+	
+	
+	
+
+}
+.imagen{
+	width: 300px;
+	height: auto;
+}
+.boton{
+	text-align: center;
+    width: 50px;
+    height: 10px;
+    border: rgb(62, 88, 9);
+    padding: 10px 20px;
+    background-color: rgb(182, 248, 51);
+    position: relative;
+    text-decoration: none;
+
+	top: 30px;
+}
+.oferta{
+	width: 300px;
+	height: 350px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(182, 248, 51);
+    margin: 45px;
+    text-align: center;
+	background-color: yellow;
+    color: indigo;
+    font-weight: bold;
+}
+footer{
+	
+	background-color:rgb(235, 146, 190);
+	color:rgb(7, 7, 7);
+	display: flex;
+	
+	
+}
+.pie1{
+	flex-direction: column;
+
+}
+.mapa{
+	width: 50vw;
+	height: 40vh;
+	margin-right: 10px;
+	margin-top: 10px;
+	
+}
+address{
+	font-weight: 800;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+	
+
+}
+.whatsapp{
+	width: 40px;
+	height: 40px;
+}
+.facebook{
+	width: 40px;
+	height: 40px;
+}
+.instagram{
+	width: 40px;
+	height: 40px;
+}
+

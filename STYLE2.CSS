@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* selector universal para que todos los elementos html "amanezcan" sin margin
+ ni padding */
+ *{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:rgb(33, 33, 66);
+	width:90vw;
+	margin:auto;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+header{
+	height:130px;
+	background-color:rgb(107, 98, 206);
+	
+    display: flex;
+	justify-content: space-around;
+    
+}
+.logo{ 
+	width: 150px;
+	height: 120px;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+#marca{
+	margin-top: 20px;
+	font-size: 80px;
+	color: rgb(182, 248, 51);
+	font-family: 'Are You Serious', cursive;
+  
+
+	
+}
+
+nav{
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-weight:bold;
+	background-color:yellow;
+	color:rgb(205, 243, 162);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+	text-decoration: none;
+
+	}
+main{
+    display: flex;
+    flex-direction: column;
+	background-color: whitesmoke;
+	height: 1100px;
+}
+
+.container{
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3,1fr);
+	grid-gap: 10px;
+
+    }
+
+.padrecol{
+	/*display: flex;
+	flex-wrap: wrap;*/
+	grid-column: 1/3;
+	grid-row: auto;
+	
+	
+
+	}
+
+img{
+    width: 400px;
+    height: 300px;
+	
+}
+.col{
+	border: solid 3px rgb(252, 110, 221);
+	background-color: rgb(250, 245, 249);
+	align-content:center;
+	width: 800px;
+	height: 300px;
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+
+
+
+}
+.texto{
+	color: indigo;
+	font-weight: bold;
+	text-align: center;
+	
+	
+
+}
+aside{
+	grid-column: 3/4;
+	margin: 20px;
+	background-color: rgb(228, 228, 228);
+	border:solid 3px rgb(129, 128, 129);
+	font-size: 14px;
+	text-align: justify;
+	
+	
+}
+h4{
+	
+	font-size: 20px;
+	color: indigo;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+iframe{
+	width:300px;
+	height:200px;
+	margin-left: 25px;
+	
+}
+.boton{
+	
+	text-align: center;
+    border: rgb(62, 88, 9);
+    padding: 10px 435px;
+    background-color: rgb(182, 248, 51);
+    position: relative;
+    text-decoration: none;
+	bottom: 80px;
+	font-weight: bold;
+	color: indigo;
+	font-size: 20px;
+	
+	
+	
+	
+
+}
+
+
+
+
+
+footer{
+	
+	background-color:rgb(235, 146, 190);
+	color:rgb(7, 7, 7);
+	display: flex;
+
+
+	
+	
+}
+.pie1{
+	flex-direction: column;
+
+}
+.mapa{
+	width: 50vw;
+	height: 40vh;
+	margin-right: 10px;
+	margin-top: 10px;
+	
+}
+address{
+	font-weight: 800;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+	
+
+}
+.whatsapp{
+	width: 40px;
+	height: 40px;
+}
+.facebook{
+	width: 40px;
+	height: 40px;
+}
+.instagram{
+	width: 40px;
+	height: 40px;
+}
+
+
+
