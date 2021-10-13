@@ -152,4 +152,32 @@ nav{
         #marca {
             font-size: xx-large;
         }
+         form{
+             left: 70px;
+             height: auto;
+         }
+         nav{
+             height: auto;
+         }
+         footer{
+             flex-direction: column;
+             margin-right: 5px ;
+             margin-left: 5px;
+         }
     }
+
+    @media(max-width: 360px){
+        form{
+            left: 25px;
+            height: auto;
+        }
+        nav{
+            height: auto;
+        }
+        .mapa{
+            width: 87vw ;
+            
+        }
+        }
+
+    
