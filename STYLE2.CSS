@@ -11,7 +11,7 @@ body{
 	width:90vw;
 	margin:auto;
 	font-family: 'Poppins', sans-serif;
-	
+	height: 100%;
 }
 
 header{
@@ -72,7 +72,7 @@ main{
 	/*display: flex;
 	flex-wrap: wrap;*/
 	grid-column: 1/3;
-	grid-row: auto;
+	
 	
 	
 
@@ -195,5 +195,12 @@ address{
 	height: 40px;
 }
 
+@media (max-width:780px) {
 
+	#marca {
+		font-size: xx-large;
+	}
+	
+	
 
+}

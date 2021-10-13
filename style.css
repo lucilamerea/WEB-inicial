@@ -1,6 +1,6 @@
 @charset "utf-8";
-/* selector universal para que todos los elementos html "amanezcan" sin margin
- ni padding */
+
+ 
 *{
 	margin:0;
 	padding:0;
@@ -58,8 +58,8 @@ main{
 
 section{
 	border: 2px solid yellow;
-	padding: 25px;/*espacio entre el texto del section y su perimetro interno*/
-	margin-bottom:25px;/*espacio con el elemento vecino de abajo*/
+	padding: 25px;
+	margin-bottom:25px;
 }
 .titulo{
 	color: indigo;
@@ -69,7 +69,7 @@ section{
 .article{
 	background-color:rgb(252, 252, 170);
 	color:indigo;
-	margin-bottom:25px;/*espacio con el elemento vecino de abajo*/
+	margin-bottom:25px;
 	padding:25px;
 	font-size: 15px;
 	text-indent: 20px;
@@ -96,6 +96,7 @@ span{
 .ofertapadre{
 	
 	display: flex;
+	
 	
 	
 	
@@ -169,3 +170,15 @@ address{
 	height: 40px;
 }
 
+@media(max-width:780px) {
+
+	#marca {
+		font-size: xx-large;
+	}
+	
+.ofertapadre{
+	flex-direction: column;
+}
+}
+		
+	
