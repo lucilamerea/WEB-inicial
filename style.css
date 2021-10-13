@@ -87,7 +87,7 @@ span{
 }
 
 #container{
-	display: grid;
+	
 	grid-template-columns: repeat(3, 1fr);
 
 	
@@ -96,6 +96,7 @@ span{
 .ofertapadre{
 	
 	display: flex;
+	flex-wrap: wrap;
 	
 	
 	
@@ -123,7 +124,7 @@ span{
 	height: 350px;
     margin-bottom: 20px;
     border: 2px solid rgb(182, 248, 51);
-    margin: 45px;
+    margin: 35px;
     text-align: center;
 	background-color: yellow;
     color: indigo;
