@@ -177,6 +177,7 @@ address{
 	}
 	
 .ofertapadre{
+	display: flex;
 	flex-direction: column;
 }
 }
