@@ -159,12 +159,19 @@ nav{
             font-size: xx-large;
         }
          form{
-             left: 70px;
+             left: 82px;
              height: auto;
          }
+         /*nav{
+             font-size: medium;
+             height: 13vh;    
+         }*/
          nav{
-             height: auto;
-         }
+            height: auto
+        }
+        a{
+            font-size: 16px;
+        }
         footer{
             flex-direction: column;
             padding: 20px;
@@ -172,18 +179,15 @@ nav{
             }
     }
 
-    @media(max-width: 360px){
+    @media(max-width: 360px)
+    {
+        
         form{
-            left: 25px;
-            height: auto;
+           right: 150px;
         }
-        nav{
-            height: auto;
-        }
-        .mapa{
-            width: 87vw ;
-            
-        }
-        }
+        
+    
+        
+     }
 
     
