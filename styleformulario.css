@@ -160,10 +160,10 @@ nav{
              height: auto;
          }
          footer{
-             flex-direction: column;
-             margin-right: 5px ;
-             margin-left: 5px;
-         }
+            flex-direction: column;
+            padding: 20px;
+            border:10px solid mediumvioletred;
+            }
     }
 
     @media(max-width: 360px){
