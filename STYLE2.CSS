@@ -40,8 +40,10 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-	text-decoration: none;
 	}
+a{
+	text-decoration: none;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -157,6 +159,11 @@ address{
 	#marca {
 		font-size: xx-large;
 	}
+	nav{
+		height: auto}
+	a{
+		font-size: 12px;
+	}
 	
 	.container{
 		grid-template-columns: 1fr;
@@ -189,7 +196,15 @@ address{
 		}
 }
 @media(max-width:370px){
-		
+	nav{
+		height: auto;
+	}
+		a{
+			font-size: 20px;
+		}
+	
+
+	}
 	}
 	
 	

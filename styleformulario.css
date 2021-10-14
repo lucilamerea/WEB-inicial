@@ -29,7 +29,7 @@ header{
 }
 #marca{
 	margin-top: 20px;
-	font-size: xx-large;
+	font-size: 80px;
 	color: rgb(182, 248, 51);
 	font-family: 'Are You Serious', cursive;
   
@@ -47,9 +47,10 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-	text-decoration: none;
-
 	}
+    a{
+        text-decoration: none;
+    }
 .cuadroForm{
     background-color: thistle;
     padding-top: 20px;
