@@ -67,8 +67,9 @@ section{
 	font-weight: bold;
 }
 .article{
-	background-color:rgb(252, 252, 170);
+	background-color:yellow;
 	color:indigo;
+	border-radius: 6px solid rgb(182, 248, 51);
 	margin-bottom:25px;
 	padding:25px;
 	font-size: 15px;
@@ -81,7 +82,7 @@ span{
 	
 }
 .banner{
-	width: 80vw;
+	width: 82vw;
 	border: solid 2px rgb(182, 248, 51);
 	margin-bottom: 25px;
 }
@@ -97,11 +98,6 @@ span{
 	
 	display: flex;
 	flex-wrap: wrap;
-	
-	
-	
-	
-
 }
 .imagen{
 	width: 300px;
@@ -116,47 +112,39 @@ span{
     background-color: rgb(182, 248, 51);
     position: relative;
     text-decoration: none;
-
 	top: 30px;
 }
 .oferta{
 	width: 300px;
 	height: 350px;
-    margin-bottom: 20px;
     border: 2px solid rgb(182, 248, 51);
-    margin: 35px;
+    margin: 39px;
     text-align: center;
 	background-color: yellow;
     color: indigo;
     font-weight: bold;
 }
+
 footer{
 	
 	background-color:rgb(235, 146, 190);
 	color:rgb(7, 7, 7);
 	display: flex;
-	
-	
 }
 .pie1{
 	flex-direction: column;
-
 }
 .mapa{
 	width: 50vw;
 	height: 40vh;
 	margin-right: 10px;
 	margin-top: 10px;
-	
 }
 address{
 	font-weight: 800;
 	font-size: 14px;
 	margin-left: 10px;
 	margin-top: 10px;
-
-	
-
 }
 .whatsapp{
 	width: 40px;
@@ -172,20 +160,31 @@ address{
 }
 
 @media(max-width:780px) {
-
 #marca {
 	font-size: xx-large;
 	}
-	
 .ofertapadre{
 	display: flex;
-	flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
 }
 footer{
 	flex-direction: column;
 	padding: 20px;
 	border:10px solid mediumvioletred;
 	}
+
 }
-		
+
+@media(max-width:370px){
+h3{
+	font: size 14px;;
+}
+.article{
+	font-size: 10px;	
+}
+
+
+}	
 	

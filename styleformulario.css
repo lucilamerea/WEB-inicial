@@ -50,6 +50,11 @@ nav{
 	text-decoration: none;
 
 	}
+.cuadroForm{
+    background-color: thistle;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
 
  form{
     width: 60vw;
@@ -159,7 +164,7 @@ nav{
          nav{
              height: auto;
          }
-         footer{
+        footer{
             flex-direction: column;
             padding: 20px;
             border:10px solid mediumvioletred;

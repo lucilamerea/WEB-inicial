@@ -150,7 +150,7 @@ address{
 	height: 40px;
 }
 
-@media (max-width:780px) {
+@media(max-width:780px) {
 	body{
 		width: 100vh;
 	}
@@ -187,8 +187,10 @@ address{
 		padding: 20px;
 		border:10px solid mediumvioletred;
 		}
-		
-
-	
-
 }
+@media(max-width:370px){
+		
+	}
+	
+	
+		
