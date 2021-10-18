@@ -196,7 +196,8 @@ address{
 		
 	}
 	.boton{
-		padding:10PX 17%;
+		padding:10PX 24.73%;
+
 	}
 	img{
 		width: 300px;
@@ -215,8 +216,17 @@ address{
 		padding: 20px;
 		border:10px solid mediumvioletred;
 		}
+	.mapa{
+		width: 80vw;
+        height: 40vh;
+		margin-left: 11px;
+	}
 }
 @media(max-width:370px){
+	body{
+		width: 100%;
+		
+	}
 	nav{
 		height: auto;
 	}
@@ -224,6 +234,27 @@ address{
 			font-size: 15px;
 		}
 	}
+	footer{
+		border:5px solid mediumvioletred;
+			}
+		address{
+			font-weight: 600;
+			font-size: 10px;
+			margin-left: 10px;
+			margin-top: 8px;
+		}
+		.whatsapp{
+			width: 30px;
+			height: 30px;
+		}
+		.facebook{
+			width: 30px;
+			height: 30px;
+		}
+		.instagram{
+			width: 30px;
+			height: 30px;
+		}
 	
 	
 		
